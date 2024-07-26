@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>MyPortfolio</title>
+    <title>Rama Kalium</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="keywords" />
     <meta content="" name="description" />
@@ -14,7 +14,7 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link href="vendor/icofont/icofont.min.css" rel="stylesheet" />
+    <link href="vendor/fontawesome-free-6.6.0-web/css/all.min.css" rel="stylesheet" />
     <link href="vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet" />
     <link href="vendor/aos/aos.css" rel="stylesheet" />
     <link href="vendor/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -31,267 +31,258 @@
   </head>
 
   <body>
-    <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-      <div class="container py-2 py-md-5">
-        <div class="row align-items-start">
-          <div class="col-md-2">
-            <ul class="custom-menu">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Me</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="works.html">Works</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 d-none d-md-block mr-auto">
-            <div class="tweet d-flex">
-              <span class="icofont-twitter text-white mt-2 mr-3"></span>
-              <div>
-                <p>
-                  <em
-                    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br />
-                    <a href="#">t.co/v82jsk</a></em
-                  >
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-none d-md-block">
-            <h3>Hire Me</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore. <br />
-              <a href="#">myemail@gmail.com</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <nav class="navbar navbar-light custom-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">MyPortfolio.</a>
-
-        <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
-          <span></span>
-        </a>
+    <style>
+      .nav-custom {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1030; /* Pastikan navbar berada di atas elemen lain */
+      }
+    </style>
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-xl nav-custom navbar-dark bg-dark">
+      <a class="navbar-brand ml-5" href="#">Rspoiy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-4">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">My Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#social">My Social Media</a>
+          </li>
+        </ul>
       </div>
     </nav>
 
     <main id="main">
-      <div class="site-section site-portfolio">
+      <!-- ======= About Section ======= -->
+      <div class="site-section m-0 pb-0 site-portfolio" id="about">
+        <div class="container">
+          <div class="row mb-5 align-items-end">
+            <div class="col-md-6" data-aos="fade-up">
+              <h2>About</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 ml-auto order-2" data-aos="fade-up">
+              <h3 class="h3 mb-4">Skills</h3>
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card text-dark" style="width: fit-content">
+                      <div class="card-body">
+                        <p class="card-text">Figma</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="">
+                      <div class="card text-danger" style="width: fit-content">
+                        <div class="card-body">
+                          <p class="card-text">HTML</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="">
+                      <div class="card text-primary" style="width: fit-content">
+                        <div class="card-body">
+                          <p class="card-text">css</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container mt-3">
+                <div class="row">
+                  <div class="col">
+                    <div class="">
+                      <div class="card" style="width: fit-content">
+                        <div class="card-body">
+                          <p class="card-text" style="color: purple">PHP</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-primary" style="width: fit-content">
+                      <div class="card-body">
+                        <p class="card-text">Dart</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-primary" style="width: fit-content">
+                      <div class="card-body">
+                        <p class="card-text">Flutter</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="container mt-3">
+                <div class="row">
+                  <div class="col">
+                    <div class="card" style="width: max-content">
+                      <div class="card-body">
+                        <p class="card-text" style="color: #dd4814">Codeigniter v.3</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card text-primary" style="width: fit-content">
+                      <div class="card-body">
+                        <p class="card-text" style="color: #7431fa">Bootstrap</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
+              <p><img src="img/image.png" alt="Image" class="img-fluid" style="height: 400px" /></p>
+              <p>Hai perkenalkan nama saya <span style="color: tomato">Muchamad Dzimar Ramadhan</span> saya adalah pelajar SMK, saya sangat tertarik dengan dunia teknologi.</p>
+              <p>
+                Setiap hari, saya selalu penasaran dengan inovasi terbaru dan perkembangan pesat di bidang ini. Mulai dari perangkat pintar hingga pemrograman, semuanya menarik minat saya. Saya menikmati saat-saat belajar tentang berbagai
+                macam aplikasi, sistem operasi, dan perangkat keras. Selain itu, saya juga suka mengikuti perkembangan tren teknologi terbaru dan mencoba menerapkannya dalam kehidupan sehari-hari.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END SECTION ABOUT -->
+
+      <!-- SECTION MY PROJECT -->
+      <div class="site-section site-portfolio mt-5" id="project">
         <div class="container">
           <div class="row mb-5 align-items-center">
             <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-              <h2>Hey, I'm Johan Stanworth</h2>
-              <p class="mb-0">Freelance Creative &amp; Professional Graphics Designer</p>
+              <h2>My Project</h2>
+              <p class="mb-0">#6EACDA</p>
             </div>
             <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
               <div id="filters" class="filters">
                 <a href="#" data-filter="*" class="active">All</a>
                 <a href="#" data-filter=".web">Web</a>
                 <a href="#" data-filter=".design">Design</a>
-                <a href="#" data-filter=".branding">Branding</a>
-                <a href="#" data-filter=".photography">Photography</a>
               </div>
             </div>
           </div>
           <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
             <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
+              <a href="https://github.com/Dzimar24/Proyek" target="__blank" class="item-wrap fancybox">
                 <div class="work-info">
-                  <h3>Boxed Water</h3>
+                  <h3>CMS</h3>
                   <span>Web</span>
                 </div>
-                <img class="img-fluid" src="img/img_1.jpg" />
+                <img class="img-fluid" src="img/Screenshot 2024-07-25 205753.png" />
               </a>
             </div>
-            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://github.com/Dzimar24/Kasir" target="_blank" class="item-wrap fancybox">
                 <div class="work-info">
-                  <h3>Build Indoo</h3>
-                  <span>Photography</span>
+                  <h3>Kasir</h3>
+                  <span>Web</span>
                 </div>
-                <img class="img-fluid" src="img/img_2.jpg" />
+                <img class="img-fluid" src="img/Screenshot 2024-07-25 211504.png" />
               </a>
             </div>
-            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://github.com/Dzimar24/Kasir-Two" target="_blank" class="item-wrap fancybox">
                 <div class="work-info">
-                  <h3>Cocooil</h3>
-                  <span>Branding</span>
+                  <h3>Gudang</h3>
+                  <span>Web</span>
                 </div>
-                <img class="img-fluid" src="img/img_3.jpg" />
+                <img class="img-fluid" src="img/Screenshot 2024-07-25 212707.png" />
+              </a>
+            </div>
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://github.com/Dzimar24/e-commerce-" target="_blank" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>E-commerce</h3>
+                  <span>Web</span>
+                </div>
+                <img class="img-fluid" src="img/Screenshot 2024-07-25 215504.png" />
+              </a>
+            </div>
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://github.com/Dzimar24/Quis" target="_blank" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Quiz Random</h3>
+                  <span>Mobile & Web</span>
+                </div>
+                <img class="img-fluid" src="img/Desain tanpa judul.png" />
+              </a>
+            </div>
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://github.com/Dzimar24/audio" target="_blank" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Audio</h3>
+                  <span>Web</span>
+                </div>
+                <img class="img-fluid" src="img/Desain tanpa judul (1).png" />
               </a>
             </div>
             <div class="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
+              <a href="https://www.figma.com/proto/4mHGBCNqv8tU8NKjEc6fmp/Example?node-id=1-3&starting-point-node-id=1%3A3&t=cfPMLSc9qOn089Oe-1" target="_blank" class="item-wrap fancybox">
                 <div class="work-info">
-                  <h3>Nike Shoe</h3>
+                  <h3>UI Travel app</h3>
                   <span>Design</span>
                 </div>
-                <img class="img-fluid" src="img/img_4.jpg" />
-              </a>
-            </div>
-            <div class="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Kitchen Sink</h3>
-                  <span>Photography</span>
-                </div>
-                <img class="img-fluid" src="img/img_5.jpg" />
-              </a>
-            </div>
-            <div class="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-              <a href="work-single.html" class="item-wrap fancybox">
-                <div class="work-info">
-                  <h3>Amazon</h3>
-                  <span>brandingn</span>
-                </div>
-                <img class="img-fluid" src="img/img_6.jpg" />
+                <img class="img-fluid" src="img/Screenshot 2024-07-26 184605.png" />
               </a>
             </div>
           </div>
         </div>
       </div>
+      <!-- END SECTION MY PROJECT -->
 
-      <div class="site-section">
-        <div class="container">
-          <div class="row justify-content-center text-center mb-4">
-            <div class="col-5">
-              <h3 class="h3 heading">My Clients</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-            </div>
+      <!-- SECTION ACOUNT SOCIAL MEDIA -->
+      <div class="container" id="social">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+            <h3 class="text-center">My Social Media</h3>
           </div>
-          <div class="row">
-            <div class="col-4 col-sm-4 col-md-2">
-              <a href="#" class="client-logo"><img src="img/logo-adobe.png" alt="Image" class="img-fluid" /></a>
-            </div>
-            <div class="col-4 col-sm-4 col-md-2">
-              <a href="#" class="client-logo"><img src="img/logo-uber.png" alt="Image" class="img-fluid" /></a>
-            </div>
-            <div class="col-4 col-sm-4 col-md-2">
-              <a href="#" class="client-logo"><img src="img/logo-apple.png" alt="Image" class="img-fluid" /></a>
-            </div>
-            <div class="col-4 col-sm-4 col-md-2">
-              <a href="#" class="client-logo"><img src="img/logo-netflix.png" alt="Image" class="img-fluid" /></a>
-            </div>
-            <div class="col-4 col-sm-4 col-md-2">
-              <a href="#" class="client-logo"><img src="img/logo-nike.png" alt="Image" class="img-fluid" /></a>
-            </div>
-            <div class="col-4 col-sm-4 col-md-2">
-              <a href="#" class="client-logo"><img src="img/logo-google.png" alt="Image" class="img-fluid" /></a>
+          <div class="col-12 d-flex mt-4 justify-content-center">
+            <style>
+              .social a{
+                margin: 0 10px;
+                font-size: 30px;
+              }
+            </style>
+            <div class="social roelo text-center">
+              <a href="https://www.instagram.com/drippuhe.exe/"
+                ><span><i class="fa-brands fa-instagram"></i></span
+              ></a>
+              <a href="https://www.linkedin.com/in/dzimar-rama-58a146299/"
+                ><span><i class="fa-brands fa-linkedin"></i></span
+              ></a>
+              <a href="mailto:ramadzimar@gmail.com"><span><i class="fa-regular fa-envelope"></i></span></a>
+              <a href="https://github.com/Dzimar24/"
+                ><span><i class="fa-brands fa-github"></i></span
+              ></a>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="site-section">
-        <div class="container">
-          <div class="row justify-content-center text-center mb-4">
-            <div class="col-5">
-              <h3 class="h3 heading">My Services</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-              <span class="la la-cube la-3x mb-4"></span>
-              <h4 class="h4 mb-2">Web Design</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-              <ul class="list-unstyled list-line">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                <li>Non pariatur nisi</li>
-                <li>Magnam soluta quod</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Cumque quae aliquam</li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-              <span class="la la-mobile la-3x mb-4"></span>
-              <h4 class="h4 mb-2">Mobile Applications</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-              <ul class="list-unstyled list-line">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                <li>Non pariatur nisi</li>
-                <li>Magnam soluta quod</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Cumque quae aliquam</li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-              <span class="la la-image la-3x mb-4"></span>
-              <h4 class="h4 mb-2">Graphic Design</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-              <ul class="list-unstyled list-line">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                <li>Non pariatur nisi</li>
-                <li>Magnam soluta quod</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Cumque quae aliquam</li>
-              </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
-              <span class="la la-search la-3x mb-4"></span>
-              <h4 class="h4 mb-2">SEO</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit explicabo inventore.</p>
-              <ul class="list-unstyled list-line">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing</li>
-                <li>Non pariatur nisi</li>
-                <li>Magnam soluta quod</li>
-                <li>Lorem ipsum dolor</li>
-                <li>Cumque quae aliquam</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-section pt-0">
-        <div class="container">
-          <div class="owl-carousel testimonial-carousel">
-            <div class="testimonial-wrap">
-              <div class="testimonial">
-                <img src="img/person_1.jpg" alt="Image" class="img-fluid" />
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore.</p>
-                </blockquote>
-                <p>&mdash; Jean Hicks</p>
-              </div>
-            </div>
-
-            <div class="testimonial-wrap">
-              <div class="testimonial">
-                <img src="img/person_2.jpg" alt="Image" class="img-fluid" />
-                <blockquote>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus incidunt ut officiis explicabo inventore.</p>
-                </blockquote>
-                <p>&mdash; Chris Stanworth</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- END SECTION ACOUNT SOCIAL MEDIA -->
     </main>
-    <footer class="footer" role="contentinfo">
+    <footer class="footer" role="contentinfo" style="margin-top: 100px">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
             <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
-            <div class="credits">
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-            -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-          </div>
-          <div class="col-sm-6 social text-md-right">
-            <a href="#"><span class="icofont-twitter"></span></a>
-            <a href="#"><span class="icofont-facebook"></span></a>
-            <a href="#"><span class="icofont-dribbble"></span></a>
-            <a href="#"><span class="icofont-behance"></span></a>
+            <div class="credits">Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
           </div>
         </div>
       </div>
@@ -304,6 +295,7 @@
     <script src="vendor/easing/easing.min.js"></script>
     <script src="vendor/php-email-form/validate.js"></script>
     <script src="vendor/isotope/isotope.pkgd.min.js"></script>
+    <script src="vendor/fontawesome-free-6.6.0-web/js/all.min.js"></script>
     <script src="vendor/aos/aos.js"></script>
     <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
 
